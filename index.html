@@ -3,16 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Samuel Gebremedhin - Youth Mentor and Volunteer Advocate">
+  <meta name="keywords" content="Samuel Gebremedhin, Youth Mentor, Volunteer Advocate, Web Developer, Bioinformatics, Epidemiology">
+  <meta name="author" content="Samuel Gebremedhin">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Add favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
   <header class="l-header">
     <nav class="nav bd-grid">
       <div>
-        <a href="#" class="nav__logo"><img src=""></a>
+        <a href="#" class="nav__logo"><img src="profile-image.jpg" alt="Samuel Gebremedhin Logo"></a>
       </div>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
@@ -24,30 +29,26 @@
         </ul>
       </div>
       <div class="nav__toggle" id="nav-toggle">
-        <i class='bx bx-menu'></i>
+        <i class='bx bx-menu' aria-label="Menu"></i>
       </div>
     </nav>
   </header>
 
   <main class="l-main">
- 
     <section class="home bd-grid" id="home">
       <div class="home__img">
-        <img class="img" src="https://as1.ftcdn.net/v2/jpg/06/05/11/12/1000_F_605111295_QyQY4Tk7bv8789bFA0TgGKeTM4zzowdo.jpg" alt="profile">
-        
+        <img class="img" src="https://as1.ftcdn.net/v2/jpg/06/05/11/12/1000_F_605111295_QyQY4Tk7bv8789bFA0TgGKeTM4zzowdo.jpg" alt="Samuel's Profile Picture">
       </div>
       <div class="home__data">
         <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Samuel</span><br>Youth Mentor And Volunteer Advocate</h1>
         <a href="#contact" class="button">Contact</a>
       </div>
       <div class="home__social">
-        <a href="mailto:Samuelgebremedhin2710@gmail.com" class="home__social-icon"><i class="bx fa-envelope-o" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/samuel-gebremedhin-108154226" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="mailto:Samuelgebremedhin2710@gmail.com" class="home__social-icon" aria-label="Email"><i class="bx fa-envelope-o" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/samuel-gebremedhin-108154226" class="home__social-icon" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
       </div>
-     
     </section>
 
-   
     <section class="about section" id="about">
       <h2 class="section-title">About</h2>
       <div class="about__container bd-grid">
@@ -55,11 +56,11 @@
           <h2 class="about__subtitle">I'm Samuel Gebremedhin</h2>
           <p class="about__text">
             Hi there! <span class="wave">👋🏾</span><br>
-           I began my research and academic journey in 2018 when I started working as an intern at the Department of Epidemiology and Bioinformatics at Addis Ababa University. <br>
+            I began my research and academic journey in 2018 when I started working as an intern at the Department of Epidemiology and Bioinformatics at Addis Ababa University. <br>
             I have worked extensively with R-programming, PHP, and Excel for various research projects. <br>
             I also contributed to building longitudinal statistical models on HPV risk factors and developed a cancer vaccine database using PHP.<br>
             My favorite research areas are epidemiology, data analysis, and bioinformatics.
-          </p>           
+          </p>
         </div>                                   
       </div>
     </section>
@@ -72,8 +73,9 @@
           <p class="skills__text">Here are some of my skills:</p>
           <div class="skills__data">
             <div class="skills__names">
+              <!-- Replaced HTML5 icon with boxicons html5 icon -->
               <i class='bx bxl-html5 skills__icon'></i>
-              <span class="skills__name"> Technical Skills</span>
+              <span class="skills__name">HTML</span>
             </div>
             <div class="skills__bar skills__html"></div>
             <div>
@@ -82,8 +84,9 @@
           </div>
           <div class="skills__data">
             <div class="skills__names">
+              <!-- Replaced CSS3 icon with boxicons css3 icon -->
               <i class='bx bxl-css3 skills__icon'></i>
-              <span class="skills__name">Leadership & Management Skills</span>
+              <span class="skills__name">CSS</span>
             </div>
             <div class="skills__bar skills__css"></div>
             <div>
@@ -92,8 +95,9 @@
           </div>
           <div class="skills__data">
             <div class="skills__names">
+              <!-- Kept the JavaScript icon as it is -->
               <i class='bx bxl-javascript skills__icon'></i>
-              <span class="skills__name">Academic Skills</span>
+              <span class="skills__name">JavaScript</span>
             </div>
             <div class="skills__bar skills__js"></div>
             <div>
@@ -102,8 +106,9 @@
           </div>
           <div class="skills__data">
             <div class="skills__names">
-              <i class='bx bxs-paint skills__icon'></i>
-              <span class="skills__name">Robotics & STEM Competence/span>
+              <!-- Replaced paint icon with STEM-related icon (boxicons library) -->
+              <i class='bx bxs-robot skills__icon'></i>
+              <span class="skills__name">Robotics & STEM Competence</span>
             </div>
             <div class="skills__bar skills__ux"></div>
             <div>
@@ -116,49 +121,42 @@
 
     <section class="work section" id="work">
         <h2 class="section-title">Work</h2>
-
         <div class="work__container bd-grid">
-            <a href="https://github.com/Hanicho0346/Movie-Book" class="work__img">
-                <img class="img1" src="photo_5807487888563226161_y.jpg" alt="">
+            <a href="https://github.com/Hanicho0346/Movie-Book" class="work__img" aria-label="View Movie-Book Project">
+                <img class="img1" src="photo_5807487888563226161_y.jpg" alt="Movie-Book project">
             </a>
-            <a href="https://github.com/Hanicho0346/MusicPlayer" class="work__img">
-                <img class="img3" src="photo_2024-07-12_19-11-28.jpg" alt="">
+            <a href="https://github.com/Hanicho0346/MusicPlayer" class="work__img" aria-label="View MusicPlayer Project">
+                <img class="img3" src="photo_2024-07-12_19-11-28.jpg" alt="MusicPlayer project">
             </a>
-            <a href="https://github.com/Hanicho0346/Movie-Book" class="work__img">
-                <img class="img2"src="photo_5807487888563226162_y.jpg" alt="">
+            <a href="https://github.com/Hanicho0346/Movie-Book" class="work__img" aria-label="View Movie-Book Project">
+                <img class="img2"src="photo_5807487888563226162_y.jpg" alt="Movie-Book project">
             </a>
         </div>
     </section>
 
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
     <section class="contact section" id="contact">
       <h2 class="section-title">Contact</h2>
       <div class="contact__container bd-grid">
-        <form action="" class="contact__form" id="contact-form">
-          <input type="text" placeholder="Name" id="name" class="contact__input">
-          <input type="email" placeholder="Email" id="email" class="contact__input">
-          <textarea placeholder="Message" id="message" cols="30" rows="10" class="contact__input"></textarea>
-         <a class="btn" href="mailto:hanagebremedhin2019@gmail.com"><input type="submit" value="Send" class="contact__button button"></a>
-          
+        <form action="mailto:hanagebremedhin2019@gmail.com" method="POST" class="contact__form" id="contact-form">
+          <input type="text" name="name" placeholder="Name" id="name" class="contact__input" required>
+          <input type="email" name="email" placeholder="Email" id="email" class="contact__input" required>
+          <textarea name="message" placeholder="Message" id="message" cols="30" rows="10" class="contact__input" required></textarea>
+          <button type="submit" class="contact__button button">Send</button>
         </form>
       </div>
     </section>
     
   </main>
 
- 
   <footer class="footer">
     <p class="footer__title">Samuel</p>
     <div class="footer__social">
-      <a href="mailto:Samuelgebremedhin2710@gmail.com " class="footer__icon"><i class="bx fa-envelope-o" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/samuel-gebremedhin-108154226" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="mailto:Samuelgebremedhin2710@gmail.com" class="footer__icon" aria-label="Email"><i class="bx fa-envelope-o" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/samuel-gebremedhin-108154226" class="footer__icon" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
     </div>
     <p>&#169; 2024 Samuel Gebremedhin. All rights reserved.</p>
   </footer>
 
-
-  <script src="main.js"  type="text/JavaScript">
- 
-  </script>
+  <script src="main.js" type="text/JavaScript"></script>
 </body>
 </html>
